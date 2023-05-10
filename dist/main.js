@@ -1,0 +1,1 @@
+document.querySelector("canvas.webgl"),new THREE.Scene;

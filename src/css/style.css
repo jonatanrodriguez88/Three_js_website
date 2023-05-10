@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(214, 26, 105, 1) 100%);
+
+
+    background: rgb(6, 51, 147);
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.section {
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: Cabin, sans-serif;
+    color: rgb(255, 237, 237);
+    font-size: 3vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    will-change: transform;
+    align-content: center;
+}
+
+section:nth-child(odd) {
+    justify-content: flex-end;
+}
+
+.box {
+    background: #df0606;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: -1;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+    mix-blend-mode: difference;
+}
+ 
