@@ -3,14 +3,7 @@
     padding: 0;
 }
 
-html,
-body {
-    background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(214, 26, 105, 1) 100%);
 
-
-    background: rgb(6, 51, 147);
-}
 
 .webgl {
     position: fixed;
@@ -26,7 +19,7 @@ body {
     position: relative;
     font-family: Cabin, sans-serif;
     color: rgb(255, 237, 237);
-    font-size: 3vmin;
+  
     padding-left: 10%;
     padding-right: 10%;
     will-change: transform;

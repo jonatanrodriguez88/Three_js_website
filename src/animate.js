@@ -11,8 +11,7 @@ const tick = () => {
 
     // Animate meshes
     for (const mesh of sectionMeshes) {
-        mesh.rotation.x += deltaTime * 0.1
-        mesh.rotation.y += deltaTime * 0.12
+        mesh.rotation.y += deltaTime * 0.2  
     }
 
     // Animate camera

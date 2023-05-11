@@ -15,10 +15,10 @@ window.addEventListener('scroll', () => {
         gsap.to(
             sectionMeshes[currentSection].rotation,
             {
-                duration: 1.5,
+                duration: 2,
                 ease: 'power2.inOut',
-                x: '+=6',
-                y: '+=3'
+                x: '+=0.1',
+                y: '+=7'
             }
         )
     }
@@ -34,8 +34,8 @@ cursor.x = 0
 cursor.y = 0
 
 window.addEventListener('mousemove', (event) => {
-    cursor.x = event.clientX / sizes.width - 0.5
-    cursor.y = event.clientY / sizes.height - 0.5
+    cursor.x = event.clientX / sizes.width - 1
+    cursor.y = event.clientY / sizes.height - 1
 })
 
 

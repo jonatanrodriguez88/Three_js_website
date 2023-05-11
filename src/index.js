@@ -12,5 +12,6 @@ const objectsDistance = 4
 
 let sectionMeshes = []
 
+AOS.init();
 
 
